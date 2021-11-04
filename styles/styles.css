@@ -60,10 +60,16 @@ html{
     width:100%;
 }
 
-h1.mainhead{
+h1{
     font-size:2em;
     text-align:center;
     padding:15px 0;
+    /*applying border*/
+    /*border:black 3px dashed; /*always three values: color, size, style*/
+    border-style:dashed;
+    border-color:black;
+    border-width:3px;
+    border-radius:60px;
 }
 
 h2{
@@ -211,7 +217,9 @@ nav ul{
 
 nav ul li{
     float:left;
-    margin:20px 10px 0; /*three values: top / left-right / bottom */
+    margin:20px 0 10px; /*three values: top / left-right / bottom */
+    width:25%;
+    text-align:center;
 }
 
 nav ul li a{
